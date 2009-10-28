@@ -24,12 +24,7 @@
 // 1999-2008 Contactivity bv (info@contactivity.com)
 
 
-include_once( 'kernel/classes/ezdatatype.php' );
-include_once( 'kernel/classes/ezcontentobject.php' );
-include_once( 'lib/ezutils/classes/ezintegervalidator.php' );
-include_once( 'lib/ezutils/classes/ezinputvalidator.php' );
-include_once( 'lib/ezi18n/classes/eztranslatormanager.php' );
-include_once( 'lib/ezxml/classes/ezxml.php' );
+include_once( 'autoload.php' );
 
 
 class eZObjectRelationBrowseType extends eZDataType
