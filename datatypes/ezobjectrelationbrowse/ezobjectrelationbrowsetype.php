@@ -1157,13 +1157,13 @@ class eZObjectRelationBrowseType extends eZDataType
                                        'from_page' => $redirectionURI ."#". $contentObjectAttribute->attribute( 'id' ));
             $base = $parameters['base_name'];
 
-			if ( isset( $classContent['class_constraint_list'] ) )
+			if ( isset( $class_content['class_constraint_list'] ) )
 			{
 				$browseParameters['class_constraint_list'] = $class_content['class_constraint_list'];
 				$browseParameters['class_array'] = $class_content['class_constraint_list'];
 			}
 
-			if ( isset( $classContent['class_create_constraint_list'] ) )
+			if ( isset( $class_content['class_create_constraint_list'] ) )
 			{
 				$browseParameters['class_create_constraint_list'] = $class_content['class_create_constraint_list'];
 				$browseParameters['class_create_array'] = $class_content['class_create_constraint_list'];
