@@ -23,7 +23,6 @@
 //
 // 1999-2008 Contactivity bv (info@contactivity.com)
 
-include_once( 'kernel/content/ezcontentfunctioncollection.php' );
 
 $http =& eZHTTPTool::instance();
 $Result = array();
@@ -85,7 +84,6 @@ if ( ( $objectNameFilter AND $classAttribute ) )
   		}
   	}
 
-  	mysql_free_result($result);
 }
 else
 {
