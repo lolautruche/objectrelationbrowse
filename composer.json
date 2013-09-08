@@ -1,0 +1,20 @@
+{
+    "name": "lolautruche/objectrelationbrowse-ls",
+    "description": "eZ Publish 4.x datatype allowing to create object relations using a variety of list types (AJAX, listbox, list of checkboxes, dropdown, etc.)",
+    "license": "GPL-2.0",
+    "type": "ezpublish-legacy-extension",
+    "authors": [
+        {
+            "name": "Jerome Vieilledent",
+            "email": "lolautruche@gmail.com"
+        },
+        {
+            "name": "Sebastiaan Van der Vliet",
+            "email": "info@fumaggo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ezsystems/ezpublish-legacy-installer": "*"
+    }
+}
