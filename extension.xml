@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<software>
+	<metadata>
+		<name>Object Relation Browse</name>
+		<version>4.0-dev</version>
+		<copyright>Copyright © 2008 Contactivity B.V., © 2013 Jérôme Vieilledent</copyright>
+		<license>GNU General Public License v2.0</license>
+		<info_url>https://github.com/lolautruche/objectrelationbrowse</info_url>
+	</metadata>
+</software>
